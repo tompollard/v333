@@ -12,10 +12,9 @@
   year        = {2026},
   start       = {2026-06-29},
   end         = {2026-06-30},
-  published   = {2026-07-02}
+  published = {2026-06-29}
 }
 
-# front matter +
 @InProceedings{healey26,
   title     = {Conference on Health, Inference, and Learning (CHIL) 2026},
   author    = {Healey, Elizabeth and Fries, Jason and Pollard, Tom and Tang, Shengpu and Zink, Anna and Hartvigsen, Tom and Agrawal, Monica and Finlayson, Sam and Glicksberg, Benjamin and Beaulieu-Jones, Brett and Wang, Kai and Fontalvo, Daseyra and Sarker, Tasmie and Chen, Irene and Alsentzer, Emily},
@@ -23,7 +22,6 @@
   abstract  = {The Conference on Health, Inference, and Learning (CHIL) focuses on advancing machine learning for health, bringing together clinicians and researchers, across both industry and academia. Since 2022, CHIL has been an official conference of the Association for Health Learning and Inference (AHLI). This volume contains proceedings of the seventh annual CHIL conference, held at the Seattle Children's Research Institute in the US.}
 }
 
-# +
 @InProceedings{noroozizadeh26,
   title     = {Reconstructing Sepsis Trajectories from Clinical Case Reports using LLMs: the Textual Time Series Corpus for Sepsis},
   author    = {Noroozizadeh, Shahriar and Weiss, Jeremy},
@@ -31,7 +29,6 @@
   abstract  = {Clinical case reports and discharge summaries may be the most complete and accurate summarization of patient encounters, yet they are finalized, i.e., timestamped after the encounter. Complementary structured data streams become available sooner but suffer from incompleteness. To train models and algorithms on more complete and temporally fine-grained data, we construct a pipeline to phenotype, extract, and annotate time-localized findings within case reports using large language models. We apply our pipeline to generate an open-access textual time series corpus for Sepsis-3 comprising 2,139 case reports from the PubMed-Open Access (PMOA) Subset. To validate our system, we apply it to PMOA and timeline annotations from i2b2/MIMIC-IV and compare the results to physician-expert annotations. We show high recovery rates of clinical findings (event match rates: GPT-5--0.93, Llama 3.3 70B Instruct--0.76) and strong temporal ordering (concordance: GPT-5--0.965, Llama 3.3 70B Instruct--0.908). Our work characterizes the ability of LLMs to time-localize clinical findings in text, illustrating the limitations of LLM use for temporal reconstruction and providing several potential avenues of improvement via multimodal integration.}
 }
 
-# +
 @InProceedings{aljorf26,
   title     = {AgentRx: A Benchmark Study of LLM Agents for Multimodal Clinical Prediction Tasks},
   author    = {Al Jorf, Baraa and Shamout, Farah},
@@ -55,7 +52,6 @@
   abstract  = {In complex clinical decision-making, clinicians must often track a variety of competing metrics defined by ``aim'' (ideal) and ``limit'' (strict) thresholds. Sifting through these high-dimensional tradeoffs to infer the optimal patient-specific strategy is cognitively demanding and historically prone to variability. In this paper, we address this challenge within the context of High-Dose-Rate (HDR) brachytherapy for cervical cancer, where planning requires strictly managing radiation hot spots while balancing tumor coverage against organ sparing. We present ALMo (Aim-Limit-defined Multi-Objective system), an interactive decision support system designed to infer and operationalize clinician intent. ALMo employs a novel optimization framework that minimizes manual input through automated parameter setup and enables flexible control over toxicity risks. Crucially, the system allows clinicians to navigate the Pareto surface of dosimetric tradeoffs by directly manipulating intuitive aim and limit values. In a retrospective evaluation of 25 clinical cases, ALMo generated treatment plans that consistently met or exceeded manual planning quality, with 65\% of cases demonstrating dosimetric improvements. Furthermore, the system significantly enhanced efficiency, reducing average planning time to approximately 17 minutes, compared to the conventional 30--60 minutes. While validated in brachytherapy, ALMo demonstrates a generalized framework for streamlining interaction in multi-criteria clinical decision-making.}
 }
 
-# +
 @InProceedings{harvey26,
   title     = {A Multi-Dataset Benchmark of Multiple Instance Learning for 3D Neuroimage Classification},
   author    = {Harvey, Ethan and Loevlie, Dennis Johan and Satani, Amir Ali and Chen, Wansu and Hughes, Michael C},
@@ -63,7 +59,6 @@
   abstract  = {Despite being resource-intensive to train, 3D convolutional neural networks (CNNs) have been the standard approach to classify CT and MRI scans. Recent work suggests that deep multiple instance learning (MIL) may be a more efficient alternative for 3D brain scans, especially when the pre-trained image encoder used to embed each 2D slice is frozen and only the pooling operation and classifier are trained. In this paper, we systematically compare simple MIL, attention-based MIL, 3D CNNs, and 3D ViTs across three CT and four MRI datasets, including two large datasets of at least 10,000 scans. Our goal is to help resource-constrained practitioners understand which neural networks work well for 3D neuroimages and why. We further compare design choices for MIL, including different encoders, pooling operations, and architectural orderings. We find that simple mean pooling MIL, without any learnable attention, matches or outperforms recent MIL or 3D NN alternatives on 4 of 6 moderate-sized tasks. This baseline remains competitive on two large datasets while being 25x faster to train. To explain mean pooling's success, we examine per-slice attention quality and a semi-synthetic dataset where we can derive the best possible classifier via a Bayes estimator. This analysis reveals the limits of existing MIL approaches and suggests routes for future improvements.}
 }
 
-# +
 @InProceedings{reyes26,
   title     = {Generating synthetic electronic health record data using agent-based models to evaluate machine learning robustness under mass casualty incidents},
   author    = {Delos Reyes, Roben and Capurro, Daniel and Geard, Nicholas},
@@ -79,7 +74,6 @@
   abstract  = {Radiology reports convey detailed clinical observations and capture diagnostic reasoning that evolves over time. However, existing evaluation methods are limited to single-report settings and rely on coarse metrics that fail to capture fine-grained clinical semantics and temporal dependencies. We introduce LUNGUAGE, a benchmark dataset for structured radiology report generation that supports both single-report evaluation and longitudinal patient-level assessment across multiple studies. It contains 1,473 annotated chest X-ray reports, each reviewed by experts, and 186 of them contain longitudinal annotations to capture disease progression and inter-study intervals, also reviewed by experts. Using this benchmark, we develop a two-stage structuring framework that transforms generated reports into fine-grained, schema-aligned structured reports, enabling longitudinal interpretation. We also propose LUNGUAGESCORE, an interpretable metric that compares structured outputs at the entity, relation, and attribute level while modeling temporal consistency across patient timelines. These contributions establish the first benchmark dataset, structuring framework, and evaluation metric for sequential radiology reporting, with empirical results demonstrating that LUNGUAGESCORE effectively supports structured report evaluation.}
 }
 
-# +
 @InProceedings{oh26,
   title     = {Survey-Aware Machine Learning: A Guideline for Valid Population Health Inference based on Scoping Review},
   author    = {Oh, YongKyung and Zheng, Henry W and Feng, Jeffrey and Bui, Alex A T},
@@ -95,7 +89,6 @@
   abstract  = {Evaluating foundation models under appropriate adaptation settings is essential for understanding the quality and transferability of the learned representations. Recent EEG foundation models have demonstrated promising transfer capabilities across tasks and datasets, motivating their growing use in neurotechnology and clinical applications. However, these models are typically evaluated under full fine-tuning on well-curated downstream datasets, a setting that does not reflect biomedical domain constraints such as limited labeled data, reduced sensor coverage, or parameter-efficient adaptation. In this work, we propose a multi-dimensional evaluation framework for assessing EEG models under realistic low-resource conditions. Empirical analysis of both supervised EEG models and recent EEG foundation models, including LaBraM, CSBrain, and CBraMod, across 6 different datasets is performed under the proposed multi-dimensional evaluation framework. We find that EEG foundation models consistently provide performance gains on long-context tasks such as sleep stage prediction and mental health state classification.  In contrast, for short-window Brain Computer Interface style tasks, supervised models achieve comparable performance despite having substantially fewer parameters. Additional analyses demonstrate that current foundation models provide limited robustness to short-window tasks and channel constrained settings. Together, these findings motivate the use of multi-dimensional evaluation protocols that characterize model behavior under realistic use constraints.}
 }
 
-# +
 @InProceedings{cottin26,
   title     = {MSnet: A deep neural network based on piecewise-constant proposals within Multi-State event history analysis},
   author    = {Cottin, Aziliz and  Zulian, Marine and  Katsahian, Sandrine and Guilloux, Agathe},
@@ -103,7 +96,6 @@
   abstract  = {Multi‑state models are essential to represent realistic disease trajectories in oncology, yet most existing survival and deep‑learning approaches either rely on restrictive Markov assumptions or fail to provide subject-specific transition risks. We propose MSnet, a deep learning framework for progressive semi-Markov multi-state processes with right-censoring. MSnet models transition-specific cumulative risks as functions of sojourn time using a multi-task architecture that flexibly integrates high-dimensional clinical and omics data. Experiments on simulated data and two real-world breast cancer cohorts show that MSnet improves predictive performance while yielding clinically interpretable transition dynamics, extending deep learning–based survival analysis to more realistic, patient‑centered disease processes.}
 }
 
-# +
 @InProceedings{wang26,
   title     = {Adaptive Test-Time Scaling for Zero-Shot Respiratory Audio Classification},
   author    = {Wang, Tsai-Ning and den Dekker, Herman Teun and Chen, Lin-Lin and Zeghidour, Neil and Saeed, Aaqib},
