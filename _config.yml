@@ -110,7 +110,7 @@ email: ''
 conference:
   name: Conference on Health, Inference, and Learning
   url:
-  location: Pauley Ballroom, Martin Luther King Jr. Building at UC Berkeley, Berkeley,
+  location: "Seattle Children's Research Institute, Seattle",
     USA
   dates:
   - *1
